@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Reading CSV
 print('Reading the document...')
-with open('files/chicago.csv') as chicago_file:
+with open('spreadsheet.csv') as chicago_file:
     reader = csv.reader(chicago_file)
     data_list = list(reader)
 print('Done!')
